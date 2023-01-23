@@ -17,7 +17,7 @@ namespace BasicCorePrograms
             for (int i=0;i<=number;i++)
             {
                 power=(int)Math.Pow(2,i);
-                Console.WriteLine("power of 2^{0} is power {1} ",i,power);
+                Console.WriteLine("power of 2^{0} is  {1} ",i,power);
             }
         }
     }
