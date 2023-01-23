@@ -4,10 +4,13 @@ using System.Text;
 
 namespace BasicCorePrograms
 {
-    public class ComputeQuotientAndRemainder
+    /// <summary>
+    /// QuotientAndRemainder class create to compute quotient and remainder 
+    /// </summary>
+    public class QuotientAndRemainder
     {
         static double quotient, remainder, dividend, divisior;
-        public static void FindComputeQuotientAndRemainder()
+        public static void ComputeQuotientAndRemainder()
         {
             Console.WriteLine("Enter value for dividend:");
             dividend=Convert.ToDouble(Console.ReadLine());

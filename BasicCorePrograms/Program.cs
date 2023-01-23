@@ -9,7 +9,7 @@ namespace BasicCorePrograms
             Console.WriteLine("Welcome to the Basic Core Programs");
             while(true)
             {
-                Console.WriteLine("1.FindPercentageOfFlipCoin\n2.CheckLeapYear\n3.FindPowerOfTwo\n4.PrintHarmonicNumber\n5.PrintPrimeFactors\n6.FindComputeQuotientAndRemainder\n11.Exit\n");
+                Console.WriteLine("1.FindPercentageOfFlipCoin\n2.CheckLeapYear\n3.FindPowerOfTwo\n4.PrintHarmonicNumber\n5.PrintPrimeFactors\n6.ComputeQuotientAndRemainder\n11.Exit\n");
                 int option=Convert.ToInt32(Console.ReadLine());
                 switch(option)
                 {
@@ -35,7 +35,7 @@ namespace BasicCorePrograms
                         break;
                     case 6:
                         Console.Clear();
-                        ComputeQuotientAndRemainder.FindComputeQuotientAndRemainder();
+                        QuotientAndRemainder.ComputeQuotientAndRemainder();
                         break;
                     case 11:
                         Console.Clear();
